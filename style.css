@@ -49,10 +49,14 @@ ul {
   display: flex;
   justify-content: space-between;
   gap: 32px;
+  flex-shrink: 0;
+
 }
 
 .hero-text, .hero-image {
   flex-basis: 50%;
+  flex-shrink: 0;
+
 }
 
 .hero-main-text {
@@ -108,6 +112,7 @@ button {
   display: flex;
   flex-flow: column;
   flex-basis: 200px;
+  flex-shrink: 0;
 }
 
 .placeholder {
@@ -120,4 +125,32 @@ button {
   font-size: 18px;
   color: grey;
   margin: 8px 0 0 0;
+}
+
+
+.three {
+  display: flex;
+  background-color: #E5E7EB;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 125px 300px 100px;
+}
+
+.three > p{
+  margin: 0;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.author {
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 24px;
+  padding-right: 20px;
 }
