@@ -70,7 +70,7 @@ ul {
   background-color: grey;
 }
 
-.hero-secondary-text, ul, .image-text {
+.hero-secondary-text, ul, .image-text{
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -86,4 +86,38 @@ button {
   border-radius: 8px;
   font-size: 18px;
   font-weight: bold;
+}
+
+.two{
+  text-align: center;
+}
+.two > p {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.two-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 100px;
+}
+
+.two-item {
+  display: flex;
+  flex-flow: column;
+  flex-basis: 200px;
+}
+
+.placeholder {
+  height: 192px;
+  border: #3882f6 solid 4px;
+  border-radius: 16px;
+}
+
+.two-item > p {
+  font-size: 18px;
+  color: grey;
+  margin: 8px 0 0 0;
 }
